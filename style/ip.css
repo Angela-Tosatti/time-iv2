@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/imagens/bussola.png);
+    background-size: cover;
+}
+
+main {
+    font: bold 15pt arial;
+    color: black;
+}
+
+header {
+    background-color: rgb(34, 166, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.726);
+}
+
+header a {
+    text-decoration: none;
+    font: bold 15pt arial;
+    color: black;
+}
+
+nav img {
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+}
+
+div {
+    border: 5px solid rgba(0, 0, 0, 0.664);
+    background-color: rgb(13, 88, 15);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    height: 30vh;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(34, 166, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.726);
+}
+
+footer a {
+    text-decoration: none;
+    font: bold 15pt arial;
+    color: black;
+}
+
+footer p {
+    font: bold 15pt arial;
+    color: black;
+}

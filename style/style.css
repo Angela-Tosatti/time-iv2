@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.card-timezone {
+    border: 1px solid teal;
+    width: 215px;
+    height: 90px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.726);
+}
+
+.card-timezone-name {
+    font-size: 12px;
+
+    background-color: teal;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+
+}
+
+.card-timezone-datetime {
+    font-size: 11px;
+    margin: 5px;
+}
+
+header {
+    background-color: teal;
+}
+
+
+nav {
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu a {
+    font-size: 12px;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+
+
+footer {
+    clear: both;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: teal;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.loader {
+    display: none;
+    text-align: center;
+    margin: 5px;
+}
+
+.visible {
+    display: block;
+}
+
+header {
+    margin-bottom: 20px;
+}

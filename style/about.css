@@ -1,0 +1,15 @@
+main {
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div {
+    border: 1px solid teal;
+    width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.726);
+}
